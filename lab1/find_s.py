@@ -4,8 +4,6 @@ import numpy as np
 
 
 data = pd.read_csv("./lab1/data.csv")
-print(data)
-
 
 d = np.array(data)[:, :-1]
 print("The attributes are : \n", d)
